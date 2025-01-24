@@ -364,10 +364,6 @@ dialog div{
         line-height: 1.6em;
     }
 
-    .highlights{
-        min-height: 75vh;
-    }
-
     .marginTop2m{
         margin-top: 2em;
     }
@@ -379,12 +375,12 @@ dialog div{
         gap: 1em;
     }
 
-    dialog{
-        min-width: 50%;
-        top: 50%; /* Posiciona en el 50% del viewport vertical */
-        left: 50%; /* Posiciona en el 50% del viewport horizontal */
-        transform: translate(-50%, -50%); /* Centra el modal ajustando el desplazamiento */
-        box-shadow: 0 0 0 100vmax rgba(0,0,0,0.8);
+    dialog {
+        min-width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.8);
     }
 
 }
