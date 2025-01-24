@@ -246,6 +246,9 @@ dialog div{
         .visibleT{
             display: block;
         }
+        .invisibleT{
+            display: none;
+        }
 
         /*menu hamburguesa - se puede resumir desp con clases utiles*/
 
