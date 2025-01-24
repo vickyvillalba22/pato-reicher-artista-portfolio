@@ -368,6 +368,10 @@ dialog div{
         margin-top: 2em;
     }
 
+    .marginTop4m{
+        margin-top: 4em;
+    }
+
     #contCuadros{
         margin-top: 3em;
         display: flex;
