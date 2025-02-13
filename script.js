@@ -104,7 +104,7 @@ const cuadros = [
 
     {
         source: "./assets/imgs/galeria/los-tres-pelos-dorados-del-diablo.jpg",
-        title: "Los Tres Pelos Dorados del Diablo",
+        title: "Los Tres Pelos de Oro del Diablo",
         desc: "Óleo",
         premio: ""
     },
