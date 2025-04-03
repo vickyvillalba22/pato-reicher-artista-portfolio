@@ -4,6 +4,7 @@ const header = document.querySelector("header");
 
 let itemsNav = document.querySelectorAll("header nav ul li a");
 let buttonHeader = document.querySelector("#abrir-menu i");
+let logo = document.querySelector(".name");
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
@@ -16,6 +17,8 @@ window.addEventListener('scroll', () => {
         buttonHeader.classList.remove("blanco");
         buttonHeader.classList.add("negro");
 
+    logo.setAttribute("src", "./assets/logo/logo-negro-completo.png");
+
     } else {
       header.classList.remove('scrolled'); // Quita la clase si el scroll vuelve arriba
       itemsNav.forEach((item)=>{
@@ -26,9 +29,34 @@ window.addEventListener('scroll', () => {
         buttonHeader.classList.add("blanco");
         buttonHeader.classList.remove("negro");
 
+        logo.setAttribute("src", "./assets/logo/logo-blanco-comp.png");
+
     }
 
 
+});
+
+/*logo header*/
+
+document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+        let p = document.querySelector(".p-img");
+        let r = document.querySelector(".r-img");
+        p.classList.add("moverse");
+        r.classList.add("moverse");
+
+    }, 1000);
+
+    setTimeout(() => {
+
+        document.querySelector(".p-img").classList.add("invisibleA");
+        document.querySelector(".r-img").classList.add("invisibleA");
+
+        let nombre = document.querySelector(".name");
+        nombre.classList.remove("invisibleA");
+        nombre.classList.add("visible"); // Agrega la clase que hace la transición suave
+
+    }, 2000);
 });
 
 /*slider*/
