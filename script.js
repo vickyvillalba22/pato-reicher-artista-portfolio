@@ -166,7 +166,7 @@ const cuadros = [
     },
 
     {
-        source: "./assets/imgs/galeria/Ningu╠ün Miedo.jpg",
+        source: "./assets/imgs/galeria/ningun-miedo-gal.jpg",
         title: "Ningún Miedo",
         desc: "Óleo",
         premio: ""
