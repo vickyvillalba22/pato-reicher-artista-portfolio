@@ -71,7 +71,7 @@ const dataSlider = [
     },
 
     {
-        src: "./assets/imgs/slider/Ningu╠ün Miedo.jpg"
+        src: "./assets/imgs/slider/ningun-miedo.jpg"
     },
 
     {
