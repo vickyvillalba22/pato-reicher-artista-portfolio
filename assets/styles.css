@@ -405,7 +405,7 @@ dialog div{
 
 }
 
-@media (max-width: 480px){
+@media (max-width: 600px){
 
     .invisibleM{
         display: none;
