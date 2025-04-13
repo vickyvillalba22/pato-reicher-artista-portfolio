@@ -441,16 +441,16 @@ dialog div{
         min-height: 70vh;
     }
     .vh60m{
-        height: 60vh;
+        min-height: 60vh;
     }
     .vh45m{
-        height: 45vh;
+        min-height: 45vh;
     }
     .vh30m{
-        height: 30vh;
+        min-height: 30vh;
     }
     .vh20m{
-        height: 20vh;
+        min-height: 20vh;
     }
 
     .dfm{
@@ -517,4 +517,24 @@ dialog div{
         justify-content: center;
     }
 
+}
+
+@media (max-width: 350px){
+    #sobreMi{
+        min-height: 70vh;
+    }
+    #sobreMi2{
+        min-height: 100vh;
+    }
+
+    .vh80c{
+        min-height: 80vh;
+    }
+
+    .marginTopC{
+        margin-top: 20px;
+    }
+    .marginTopCmas{
+        margin-top: 40px;
+    }
 }
